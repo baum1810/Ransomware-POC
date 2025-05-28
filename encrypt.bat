@@ -15,6 +15,7 @@ FOR /D %%D IN ("%DESKTOP_PATH%\*") DO (
     IF NOT EXIST "!ZIP_NAME!" (
         ECHO encrypting folder: %%~nxD
         "%SEVEN_ZIP_PATH%" a -tzip -p%PASSWORD% -mem=AES256 "!ZIP_NAME!" "!FOLDER!" >nul
+        timeout 1 >nul
         rmdir /s /q "!FOLDER!"
     ) ELSE (
         ECHO Skipping existing: %%~nxD
@@ -30,6 +31,7 @@ FOR %%F IN ("%DESKTOP_PATH%\*.*") DO (
         IF NOT EXIST "!ZIP_NAME!" (
             ECHO encrypting file: %%~nxF
             "%SEVEN_ZIP_PATH%" a -tzip -p%PASSWORD% -mem=AES256 "!ZIP_NAME!" "!FILE!" >nul
+            timeout 1 >nul
             del /q "!FILE!"
         ) ELSE (
             ECHO Skipping existing: %%~nxF

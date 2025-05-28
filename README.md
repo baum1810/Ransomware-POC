@@ -47,7 +47,7 @@ This repository contains a **Proof of Concept (PoC)** demonstrating a simple ran
 ## Detection Status
 
 As of the upload date (2025-05-28), this PoC is **fully undetected** by antivirus engines on VirusTotal:  
-[0/60 detection ratio on VirusTotal](https://www.virustotal.com/gui/file-analysis/OWNlYmZkZmY3NWU2ZGIyODRlYzVmZGJlNTZiMjlkNzM6MTc0ODQ2NDk1Mw==)
+[0/61 detection ratio on VirusTotal](https://www.virustotal.com/gui/file-analysis/OWNlYmZkZmY3NWU2ZGIyODRlYzVmZGJlNTZiMjlkNzM6MTc0ODQ2NDk1Mw==)
 
 ---
 

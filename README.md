@@ -66,4 +66,11 @@ This project is for **educational and research purposes only**.
 The author is **not responsible** for any misuse or damage caused by these scripts.  
 Always test in a controlled environment.
 
+---
+## Community
+
+Join the discussion, ask questions, or share improvements on our Discord:  
+👉 [https://discord.gg/yxyZpeS4p9](https://discord.gg/yxyZpeS4p9)
+
+
 
